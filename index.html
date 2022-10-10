@@ -7,10 +7,24 @@
     <link rel="icon" href="./cifrao.png">
 
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
     <title>Conversor</title>
 </head>
 <body>
-    <h1>Conversor de Dolar e Euro</h1>
+    <h1>Conversor de Dólar e Euro</h1>
+    <form action="" class="form">
+        <select id="select">
+            <option value="EUR" id="EUR">Euro</option>
+            <option value="USD" id="USD">Dólar</option>
+        </select>
+        <input type="number" name="" id="valor" placeholder="Insira o Valor">
+        <input type="submit" value="Enviar" id="value">
+    </form>
+    <br>
+    <div>
+        <h2>Valor Convertido:</h2> 
+        <h2 class="result"></h2>
+    </div>
+    
 </body>
 </html>
